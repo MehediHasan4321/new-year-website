@@ -10,7 +10,7 @@
 
 header {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: url("../images/banner/banner3.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -60,26 +60,153 @@ main{
 }
 
 .failure-section{
-    width: 70%;
-    margin: 0 auto;
+    width: 1680px;
+    height: 800px;
+    margin: 100px auto;
     display: flex;
     gap: 20px;
+
 }
 .failure-section-img{
     width: 50%;
-    height: 500px;
+    height: 100%;
 }
 .failure-section-img img{
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
 
 }
 .failure-section-content{
     width: 50%;
-    height: auto;
-    padding: 60px;
+    height: 100%;
+    position: relative;
+
 }
-.failure-section-content h1{
+.failure-section-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+  }
+  .failure-section-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  .failure-section-text p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #696969;
+    margin-bottom: 20px;
+    line-height: 35px;
+  }
+  .failure-section-text h4{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #696969;
+  }
+  .failure-section-text span{
+    margin-right: 10px;
+    color: skyblue;
+  }
+  /* plan section style here */
+  .plan-section{
+    width: 1680px;
+    margin: 100px auto;
+
+  }
+  .plan-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .my-plans{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .plan{
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+  }
+.plan img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.plan h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plan p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #696969;
+}
+
+/* banner2 section style here */
+
+
+.banner2-section{
+    width: 1680px;
+    height: 400px;
+    margin: 60px auto;
+}
+.banner2-container{
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/gradient1.png"),url("../images/watch.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner2-content{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+}
+.banner2-content h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 25px;
+}
+.banner2-content button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    color: #025EAA;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    
+}
+
+/* footer section start here */
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    width: 1680px;
 
 }
