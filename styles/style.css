@@ -60,7 +60,7 @@ main{
 }
 
 .failure-section{
-    width: 1680px;
+    width: 1500px;
     height: 800px;
     margin: 100px auto;
     display: flex;
@@ -115,7 +115,7 @@ main{
   }
   /* plan section style here */
   .plan-section{
-    width: 1680px;
+    width: 1500px;
     margin: 100px auto;
 
   }
@@ -162,7 +162,7 @@ main{
 
 
 .banner2-section{
-    width: 1680px;
+    width: 1500px;
     height: 400px;
     margin: 60px auto;
 }
@@ -207,6 +207,72 @@ footer{
     color: white;
 }
 .footer-container{
-    width: 1680px;
-
+    width: 1500px;
+    margin: 0 auto;
+}
+.footer-content{
+    display: flex;
+    gap: 250px;
+}
+.footer-left-container{
+    width: 50%;
+    height: 500px;
+    margin-top: 90px;
+}
+.footer-left-container h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer-left-container p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.footer-left-container h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-top: 50px;
+}
+.icon img{
+    margin-right: 25px;
+}
+.footer-right-container{
+    width: 50%;
+    height: 500px;
+    margin-top: 90px;
+}
+.footer-right-container h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer-right-container input{
+    width: 250px;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.footer-right-container button{
+    width: 200px;
+    background-color: #025EAA;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
