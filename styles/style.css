@@ -41,12 +41,12 @@ header {
     margin-bottom: 20px;
 }
 .banner-text button{
-    background-color: orangered;
+    background-color: white;
     padding: 8px 30px;
     border: none;
     border-radius: 5px;
     outline: none;
-    color: white;
+    color: #025EAA;
     font-weight: 600;
     font-size: 16px;
 }
